@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Hayal/static/css/main.51e8e433.css",
-    "main.js": "/Hayal/static/js/main.8c02d41e.js",
+    "main.css": "/Hayal/static/css/main.04def1c4.css",
+    "main.js": "/Hayal/static/js/main.b42f6aeb.js",
     "static/js/453.f5371958.chunk.js": "/Hayal/static/js/453.f5371958.chunk.js",
-    "static/media/logo.svg": "/Hayal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Hayal/index.html",
-    "main.51e8e433.css.map": "/Hayal/static/css/main.51e8e433.css.map",
-    "main.8c02d41e.js.map": "/Hayal/static/js/main.8c02d41e.js.map",
+    "main.04def1c4.css.map": "/Hayal/static/css/main.04def1c4.css.map",
+    "main.b42f6aeb.js.map": "/Hayal/static/js/main.b42f6aeb.js.map",
     "453.f5371958.chunk.js.map": "/Hayal/static/js/453.f5371958.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e8e433.css",
-    "static/js/main.8c02d41e.js"
+    "static/css/main.04def1c4.css",
+    "static/js/main.b42f6aeb.js"
   ]
 }
