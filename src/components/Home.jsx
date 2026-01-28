@@ -48,42 +48,58 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section className="py-5 bg-light">
-        <div className="container px-3">
-          <h2 className="text-center fw-bold section-title animate-fade-up">
-            Our Services
-          </h2>
+      <section className="py-5 services-section">
+      <div className="container px-3">
+    <h2 className="text-center fw-bold section-title animate-fade-up">
+      Our Services
+    </h2>
 
-          <div className="row g-4 mt-3">
-            <div className="col-12 col-md-4">
-              <div className="card h-100 shadow-sm text-center animate-card">
-                <div className="card-body">
-                  <h5>Corporate Events</h5>
-                  <p>Conferences, meetings, and product launches.</p>
-                </div>
-              </div>
-            </div>
+    <p className="text-center text-muted mt-2">
+      Premium solutions tailored for every celebration.
+    </p>
 
-            <div className="col-12 col-md-4">
-              <div className="card h-100 shadow-sm text-center animate-card delay-1">
-                <div className="card-body">
-                  <h5>Weddings</h5>
-                  <p>Elegant wedding planning tailored to your vision.</p>
-                </div>
-              </div>
-            </div>
+    <div className="row g-4 mt-4">
 
-            <div className="col-12 col-md-4">
-              <div className="card h-100 shadow-sm text-center animate-card delay-2">
-                <div className="card-body">
-                  <h5>Social Events</h5>
-                  <p>Birthdays, parties, and private celebrations.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* Service 1 */}
+      <div className="col-12 col-sm-6 col-lg-3">
+        <div className="service-box animate-card">
+          <div className="service-icon">🏢</div>
+          <h5>Corporate Events</h5>
+          <p>Conferences, meetings, and product launches.</p>
         </div>
-      </section>
+      </div>
+
+      {/* Service 2 */}
+      <div className="col-12 col-sm-6 col-lg-3">
+        <div className="service-box animate-card delay-1">
+          <div className="service-icon">💍</div>
+          <h5>Weddings</h5>
+          <p>Elegant wedding planning tailored to your vision.</p>
+        </div>
+      </div>
+
+      {/* Service 3 */}
+      <div className="col-12 col-sm-6 col-lg-3">
+        <div className="service-box animate-card delay-2">
+          <div className="service-icon">🎉</div>
+          <h5>Social Events</h5>
+          <p>Birthdays, parties, and private celebrations.</p>
+        </div>
+      </div>
+
+      {/* Service 4 */}
+      <div className="col-12 col-sm-6 col-lg-3">
+        <div className="service-box animate-card delay-3">
+          <div className="service-icon">🎂</div>
+          <h5>Cake Baking</h5>
+          <p>Handmade custom cakes designed for your theme.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* HOW WE WORK */}
       <section className="py-5">
@@ -163,7 +179,7 @@ export default function Home() {
               </p>
 
               <p className="mb-0">
-                👤 <strong>SUKANYA</strong><br />
+                👤 <strong>Dt. SUKANYA K R</strong><br />
                 📞{" "}
                 <a href="tel:8921113059" className="contact-link">
                   8921113059
