@@ -47,9 +47,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVICES */}
       <section className="py-5 services-section">
-      <div className="container px-3">
+  <div className="container px-3">
     <h2 className="text-center fw-bold section-title animate-fade-up">
       Our Services
     </h2>
@@ -58,10 +57,10 @@ export default function Home() {
       Premium solutions tailored for every celebration.
     </p>
 
-    <div className="row g-4 mt-4">
+    {/* ✅ Row 1: First 3 Services */}
+    <div className="row g-4 mt-4 justify-content-center">
 
-      {/* Service 1 */}
-      <div className="col-12 col-sm-6 col-lg-3">
+      <div className="col-12 col-md-4">
         <div className="service-box animate-card">
           <div className="service-icon">🏢</div>
           <h5>Corporate Events</h5>
@@ -69,8 +68,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Service 2 */}
-      <div className="col-12 col-sm-6 col-lg-3">
+      <div className="col-12 col-md-4">
         <div className="service-box animate-card delay-1">
           <div className="service-icon">💍</div>
           <h5>Weddings</h5>
@@ -78,21 +76,33 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Service 3 */}
-      <div className="col-12 col-sm-6 col-lg-3">
+      <div className="col-12 col-md-4">
         <div className="service-box animate-card delay-2">
           <div className="service-icon">🎉</div>
           <h5>Social Events</h5>
           <p>Birthdays, parties, and private celebrations.</p>
         </div>
       </div>
+    </div>
 
-      {/* Service 4 */}
-      <div className="col-12 col-sm-6 col-lg-3">
+    {/* ✅ Row 2: Last 2 Services Centered */}
+    <div className="row g-4 mt-3 justify-content-center">
+
+      <div className="col-12 col-md-4">
         <div className="service-box animate-card delay-3">
           <div className="service-icon">🎂</div>
           <h5>Cake Baking</h5>
           <p>Handmade custom cakes designed for your theme.</p>
+        </div>
+      </div>
+
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-4">
+          <div className="service-icon">🥗</div>
+          <h5>Dietitian Consultation</h5>
+          <p>
+            Personalized nutrition guidance and healthy meal planning for your lifestyle.
+          </p>
         </div>
       </div>
 
