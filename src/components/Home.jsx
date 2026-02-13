@@ -228,7 +228,7 @@ export default function Home() {
         <>
           <img src="/ajmal.jpg" alt="Ajmal" />
           <h3>AJMAL ALIKHAN O.S</h3>
-          <p className="role-text">Event Coordinator</p>
+          <p className="role-text">Founder & Creative Head</p>
           <a href="tel:8113973059" className="call-btn">
             📞 8113973059
           </a>
@@ -239,7 +239,7 @@ export default function Home() {
         <>
           <img src="/sukanya.jpg" alt="Sukanya" />
           <h3>Dt. SUKANYA K R</h3>
-          <p className="role-text">Event Coordinator</p>
+          <p className="role-text">Founder & Managing Partner</p>
           <p className="role-text">Dietitian Consultant</p>
           <a href="tel:8921113059" className="call-btn">
             📞 8921113059
