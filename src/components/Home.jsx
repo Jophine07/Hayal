@@ -239,6 +239,7 @@ export default function Home() {
         <>
           <img src="/sukanya.jpg" alt="Sukanya" />
           <h3>Dt. SUKANYA K R</h3>
+          <p className="role-text">Event Coordinator</p>
           <p className="role-text">Dietitian Consultant</p>
           <a href="tel:8921113059" className="call-btn">
             📞 8921113059
