@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "../Home.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
-  const [showBanner, setShowBanner] = useState(false);
-
   const scrollToContact = () => {
+
     document.getElementById("contact-section")?.scrollIntoView({
       behavior: "smooth",
     });
@@ -19,38 +19,21 @@ export default function Home() {
   const [activePerson, setActivePerson] = useState(null);
 
 
-  const handleRibbonClick = () => {
-    setShowBanner(true);
-  };
 
   return (
     <div>
 
-      {/* CENTER INAUGURATION BUTTON */}
-      {!showBanner && (
-        <div className="center-ribbon-wrapper">
-          <button className="center-ribbon-btn" onClick={handleRibbonClick}>
-            🎀 Grand Inauguration
-          </button>
-        </div>
-      )}
-
-      {/* CONFETTI EFFECT */}
-      {showBanner && <div className="confetti"></div>}
-
-      {/* INAUGURATION BANNER */}
-      {showBanner && (
-        <div className="inauguration-banner">
-          🎉 HAYAL EVENTS – Since 2026 🎉
-        </div>
-      )}
-
       {/* WRAPPER FOR BLUR EFFECT */}
-      <div className={`content-wrapper ${!showBanner ? "blurred" : "revealed"}`}>
-
+      <div className="content-wrapper">
         {/* HERO */}
         <section className="hero d-flex align-items-center text-center">
           <div className="container text-white px-3">
+            {/* ✅ TOP RIGHT BUTTON */}
+            <div style={{ position: "absolute", top: "-100px", right: "10px" }}>
+              <Link to="/Events" className="btn btn-outline-light">
+                Upcoming Events
+              </Link>
+            </div>
             <h1 className="brand-title animate-fade-up">
               HAYAL EVENTS
             </h1>

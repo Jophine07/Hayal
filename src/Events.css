@@ -1,0 +1,58 @@
+.event-wrapper {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* HERO */
+  .event-hero {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .event-badge {
+    background: orange;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  /* DETAILS */
+  .event-details {
+    display: flex;
+  }
+  
+  .event-details .left {
+    background: orange;
+    color: white;
+    padding: 30px;
+    flex: 1;
+  }
+  
+  .event-details .right {
+    background: black;
+    color: white;
+    padding: 30px;
+    flex: 1;
+  }
+  
+  /* TOPICS */
+  .topics {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  /* SPEAKER */
+  .speaker {
+    background: black;
+    color: white;
+    padding: 40px;
+  }

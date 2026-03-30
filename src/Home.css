@@ -237,51 +237,15 @@
   box-shadow: 0 22px 55px rgba(0, 0, 0, 0.14);
 }
 
-.center-ribbon-wrapper {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-}
 
-.center-ribbon-btn {
-  background: linear-gradient(45deg, #d4af37, #f5d76e);
-  border: none;
-  padding: 15px 40px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 50px;
-  cursor: pointer;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-  transition: 0.3s;
-}
 
-.center-ribbon-btn:hover {
-  transform: scale(1.1);
-}
 
 .blurred {
   filter: blur(6px);
 }
 
-.revealed {
-  filter: blur(0);
-  transition: 1s ease;
-}
 
-.inauguration-banner {
-  position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: black;
-  color: #d4af37;
-  padding: 15px 40px;
-  font-weight: bold;
-  border-radius: 8px;
-  z-index: 9998;
-}
+
 
 .confetti {
   position: fixed;
