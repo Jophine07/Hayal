@@ -2,6 +2,19 @@
     box-sizing: border-box;
   }
   
+.services-disclaimer {
+  background: #fff8ec;              /* very soft warm tone */
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #6c757d;
+  display: inline-block;
+}
+
+.brand-highlight {
+  color: orange;
+  font-weight: 600;
+}
 
 html {
   scroll-behavior: smooth;
@@ -51,9 +64,6 @@ section {
     }
     50% {
       background-image: url("https://images.unsplash.com/photo-1519741497674-611481863552");
-    }
-    75% {
-      background-image: url("https://images.unsplash.com/photo-1540575467063-178a50c2df87");
     }
     100% {
       background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");

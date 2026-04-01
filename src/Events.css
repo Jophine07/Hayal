@@ -1,58 +1,98 @@
-.event-wrapper {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* HERO */
-  .event-hero {
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .event-hero h1 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  
-  .event-badge {
-    background: orange;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 12px;
-    font-weight: bold;
-  }
-  
-  /* DETAILS */
-  .event-details {
-    display: flex;
-  }
-  
-  .event-details .left {
-    background: orange;
-    color: white;
-    padding: 30px;
-    flex: 1;
-  }
-  
-  .event-details .right {
-    background: black;
-    color: white;
-    padding: 30px;
-    flex: 1;
-  }
-  
-  /* TOPICS */
-  .topics {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    font-weight: bold;
-  }
-  
-  /* SPEAKER */
-  .speaker {
-    background: black;
-    color: white;
-    padding: 40px;
-  }
+/* HERO */
+.event-hero {
+  background: #111;
+  color: #fff;
+}
+
+.event-topbar {
+  padding: 15px 20px;
+}
+
+.home-btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: orange;
+  border-color: orange;
+}
+
+/* TITLE */
+.event-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.event-subtitle {
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* CTA */
+.register-btn {
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: #ff8800;
+}
+
+/* EVENT CARD */
+.event-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.info-right {
+  background: #111;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+}
+
+/* AGENDA */
+.section-heading {
+  font-weight: 600;
+}
+
+.agenda-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.agenda-card:hover {
+  background: #fff3e0;
+  color: orange;
+}
+
+/* SPEAKER */
+.speaker-section {
+  background: #111;
+  color: #fff;
+}
+
+.speaker-label {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.speaker-name {
+  font-weight: 700;
+}
+
+.speaker-role {
+  color: #ccc;
+}

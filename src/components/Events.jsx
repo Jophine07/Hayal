@@ -4,58 +4,79 @@ import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
-    <div className="event-wrapper container-fluid p-0">
+    <div className="event-wrapper">
 
-      {/* HERO SECTION */}
-      <div className="event-hero d-flex flex-column flex-md-row justify-content-between align-items-center p-4">
-        
-        <h1 className="text-center text-md-start">
-          Time, Team & Clients:<br />
-          Event Management Essentials
-        </h1>
+      {/* HERO */}
+      <div className="event-hero">
 
-        <div className="event-badge mt-3 mt-md-0">
-          <Link to="/" className="btn btn-outline-light">
-            HOME
+        <div className="event-topbar">
+          <Link to="/" className="home-btn">
+            ← Back to Home
           </Link>
         </div>
+
+        <div className="container text-center py-5">
+          <h1 className="event-title">
+            Time, Team & Clients
+          </h1>
+          <p className="event-subtitle">
+            Event Management Essentials
+          </p>
+
+        
+        </div>
+
       </div>
 
-      {/* EVENT DETAILS */}
-      <div className="event-details row g-0">
+      {/* EVENT INFO */}
+      <div className="container py-5">
+        <div className="event-card row">
 
-        <div className="left col-12 col-md-6 p-4 text-center text-md-start">
-          <h2>
-            Work Culture in Event Management <br />
-            Things Every Fresher Should Remember
-          </h2>
-        </div>
+          <div className="col-md-6 p-4">
+            <h3 className="info-title">
+              Work Culture in Event Management
+            </h3>
+            <p>
+              Things every fresher should understand about teamwork,
+              clients, and execution in real-world event scenarios.
+            </p>
+          </div>
 
-        <div className="right col-12 col-md-6 p-4 text-center text-md-start">
-          <h2>4TH APRIL 2026</h2>
-          <p>Sri C Achutha Menon Govt College, Thrissur</p>
-          <p>10 AM – 12:30 PM</p>
+          <div className="col-md-6 p-4 info-right">
+            <h4>📅 4th April 2026</h4>
+            <p>📍 Sri C Achutha Menon Govt College, Thrissur</p>
+            <p>⏰ 10 AM – 12:30 PM</p>
+          </div>
+
         </div>
       </div>
 
-      {/* TOPICS */}
-      <div className="topics container py-4">
-        <div className="text-center mb-3">
-          <h4><b>AGENDA:</b></h4>
-        </div>
+      {/* AGENDA */}
+      <div className="container py-4">
+        <h4 className="section-heading text-center mb-4">AGENDA</h4>
 
         <div className="row text-center">
-          <div className="col-12 col-md-4 mb-2">Growth Tactics</div>
-          <div className="col-12 col-md-4 mb-2">Professional Skills</div>
-          <div className="col-12 col-md-4 mb-2">Client Interaction</div>
+          <div className="col-md-4 mb-3">
+            <div className="agenda-card">Growth Tactics</div>
+          </div>
+
+          <div className="col-md-4 mb-3">
+            <div className="agenda-card">Professional Skills</div>
+          </div>
+
+          <div className="col-md-4 mb-3">
+            <div className="agenda-card">Client Interaction</div>
+          </div>
         </div>
       </div>
 
       {/* SPEAKER */}
-      <div className="speaker text-center text-md-start p-4">
-        <h3>Resource Person</h3>
-        <h2>Ms. Anupama Devan</h2>
-        <p>HRM Mentor</p>
+      <div className="speaker-section py-5">
+        <div className="container text-center">
+          <h5 className="speaker-label">Resource Person</h5>
+          <h2 className="speaker-name">Ms. Anupama Devan</h2>
+          <p className="speaker-role">HRM Mentor</p>
+        </div>
       </div>
 
     </div>

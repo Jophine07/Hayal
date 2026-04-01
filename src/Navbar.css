@@ -1,13 +1,65 @@
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+/* NAVBAR BACKGROUND */
+.custom-navbar {
+  background: #111; /* clean black */
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
-.nav-link {
+/* LOGO */
+.brand-logo {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff !important;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* NAV LINKS */
+.nav-btn {
+  color: #ccc !important;
+  font-size: 14px;
+  position: relative;
+  transition: 0.3s;
+  background: none;
+  border: none;
+}
+
+/* UNDERLINE HOVER */
+.nav-btn::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -3px;
+  background: orange;
   transition: 0.3s;
 }
 
-.nav-link:hover {
-  color: orange !important;
+.nav-btn:hover::after {
+  width: 100%;
+}
+
+.nav-btn:hover {
+  color: #fff !important;
+}
+
+/* CALL BUTTON */
+.call-btn {
+  background: orange;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.call-btn:hover {
+  background: #ff8800;
+  transform: translateY(-1px);
 }

@@ -13,7 +13,7 @@ export default function Home() {
   };
 
   const handlePersonClick = (name) => {
-    console.log("clicked:", name);   // 👈 DEBUG LINE
+
     setActivePerson(name);
   };
 
@@ -70,65 +70,107 @@ export default function Home() {
             </p>
           </div>
         </section>
+      {/* SERVICES */}
+<section id="services" className="py-5 services-section">
+  <div className="container px-3">
 
-        {/* SERVICES */}
-        <section id="services" className="py-5 services-section">
-          <div className="container px-3">
-            <h2 className="text-center fw-bold section-title animate-fade-up">
-              Our Services
-            </h2>
+    <h2 className="text-center fw-bold section-title animate-fade-up">
+      Our Services
+    </h2>
 
-            <p className="text-center text-muted mt-2">
-              Premium solutions tailored for every celebration.
-            </p>
+    <p className="text-center text-muted mt-2">
+      Premium solutions tailored for every celebration.
+    </p>
 
-            <div className="row g-4 mt-4 justify-content-center">
-              <div className="col-12 col-md-4">
-                <div className="service-box animate-card">
-                  <div className="service-icon">🏢</div>
-                  <h5>Corporate Events</h5>
-                  <p>Conferences, meetings, and product launches.</p>
-                </div>
-              </div>
+   <div className="mt-3">
+  <p className="services-note text-center">
+    Premium and personalized services are available exclusively for clients who have booked with 
+    <span className="brand-highlight"> HAYAL EVENTS</span>.
+  </p>
+</div>
 
-              <div className="col-12 col-md-4">
-                <div className="service-box animate-card delay-1">
-                  <div className="service-icon">💍</div>
-                  <h5>Weddings</h5>
-                  <p>Elegant wedding planning tailored to your vision.</p>
-                </div>
-              </div>
+    {/* ROW 1 */}
+    <div className="row g-4 mt-4 justify-content-center">
 
-              <div className="col-12 col-md-4">
-                <div className="service-box animate-card delay-2">
-                  <div className="service-icon">🎉</div>
-                  <h5>Social Events</h5>
-                  <p>Birthdays, parties, and private celebrations.</p>
-                </div>
-              </div>
-            </div>
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card">
+          <div className="service-icon">🏢</div>
+          <h5>Corporate Events</h5>
+          <p>Conferences, meetings, and product launches.</p>
+        </div>
+      </div>
 
-            <div className="row g-4 mt-3 justify-content-center">
-              <div className="col-12 col-md-4">
-                <div className="service-box animate-card delay-3">
-                  <div className="service-icon">🎂</div>
-                  <h5>Cake Baking</h5>
-                  <p>Handmade custom cakes designed for your theme.</p>
-                </div>
-              </div>
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-1">
+          <div className="service-icon">💍</div>
+          <h5>Weddings</h5>
+          <p>Elegant wedding planning tailored to your vision.</p>
+        </div>
+      </div>
 
-              <div className="col-12 col-md-4">
-                <div className="service-box animate-card delay-4">
-                  <div className="service-icon">🥗</div>
-                  <h5>Dietitian Consultation</h5>
-                  <p>
-                    Personalized nutrition guidance and healthy meal planning for your lifestyle.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-2">
+          <div className="service-icon">🎉</div>
+          <h5>Social Events</h5>
+          <p>Birthdays, parties, and private celebrations.</p>
+        </div>
+      </div>
+
+    </div>
+
+    {/* ROW 2 */}
+    <div className="row g-4 mt-3 justify-content-center">
+
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-3">
+          <div className="service-icon">🎂</div>
+          <h5>Cake Baking</h5>
+          <p>Handmade custom cakes designed for your theme.</p>
+        </div>
+      </div>
+
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-4">
+          <div className="service-icon">🥗</div>
+          <h5>Dietitian Consultation</h5>
+          <p>
+            Personalized nutrition guidance and healthy meal planning for your lifestyle.
+          </p>
+        </div>
+      </div>
+
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-5">
+          <div className="service-icon">🖌️</div>
+          <h5>Mehandi Arts</h5>
+          <p>
+            Professional mehandi artists creating elegant and intricate designs
+            for weddings, engagements, and special occasions.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    {/* ROW 3 */}
+    <div className="row g-4 mt-3 justify-content-center">
+
+      <div className="col-12 col-md-4">
+        <div className="service-box animate-card delay-6">
+          <div className="service-icon">🍱</div>
+          <h5>Premium Food Distribution</h5>
+          <p>
+            Healthy, dietitian-guided meals for busy professionals.
+            Includes personalized diet consultation and regular follow-ups
+            to ensure your health goals are on track.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
         {/* HOW WE WORK */}
         <section className="py-5">
