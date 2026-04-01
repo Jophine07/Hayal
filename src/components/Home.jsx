@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../Home.css";
 import { Link } from "react-router-dom";
+import Navbar from "./NavBar";
 
 export default function Home() {
 
@@ -22,11 +23,12 @@ export default function Home() {
 
   return (
     <div>
+      <Navbar/>
 
       {/* WRAPPER FOR BLUR EFFECT */}
       <div className="content-wrapper">
         {/* HERO */}
-        <section className="hero d-flex align-items-center text-center">
+        <section id="home" className="hero d-flex align-items-center text-center">
           <div className="container text-white px-3">
             {/* ✅ TOP RIGHT BUTTON */}
             <div style={{ position: "absolute", top: "-100px", right: "10px" }}>
@@ -58,7 +60,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section className="py-5">
+        <section id="about" className="py-5">
           <div className="container text-center px-3 animate-fade-up">
             <h2 className="fw-bold section-title">Who We Are</h2>
             <p className="mt-3 mx-auto about-text">
@@ -70,7 +72,7 @@ export default function Home() {
         </section>
 
         {/* SERVICES */}
-        <section className="py-5 services-section">
+        <section id="services" className="py-5 services-section">
           <div className="container px-3">
             <h2 className="text-center fw-bold section-title animate-fade-up">
               Our Services

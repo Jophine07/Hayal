@@ -1,0 +1,13 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}

@@ -2,6 +2,15 @@
     box-sizing: border-box;
   }
   
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
   body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
