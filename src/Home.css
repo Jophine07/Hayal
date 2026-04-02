@@ -371,3 +371,13 @@ section {
 .profile-modal {
   animation: popUp 0.35s cubic-bezier(.17,.67,.39,1.27);
 }
+.delivery-highlight {
+  margin-top: 8px;
+  font-weight: 600;
+  color: orange;
+  font-size: 14px;
+}
+.mehandi-highlight {
+  color: orange;
+  font-weight: 600;
+}

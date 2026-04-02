@@ -121,34 +121,37 @@ export default function Home() {
     {/* ROW 2 */}
     <div className="row g-4 mt-3 justify-content-center">
 
-      <div className="col-12 col-md-4">
-        <div className="service-box animate-card delay-3">
-          <div className="service-icon">🎂</div>
-          <h5>Cake Baking</h5>
-          <p>Handmade custom cakes designed for your theme.</p>
-        </div>
-      </div>
+     <div className="col-12 col-md-4">
+  <div className="service-box animate-card delay-3">
+    <div className="service-icon">🎂</div>
+    <h5>Hayal MomKing Home Baking</h5>
+    <p>
+      Homemade delights crafted with care, offering a variety of cakes including 
+      <span className="cake-highlight"> cupcakes</span>, customized theme cakes, and more for every occasion.
+    </p>
+  </div>
+</div>
 
       <div className="col-12 col-md-4">
         <div className="service-box animate-card delay-4">
           <div className="service-icon">🥗</div>
           <h5>Dietitian Consultation</h5>
           <p>
-            Personalized nutrition guidance and healthy meal planning for your lifestyle.
+           <span className="mehandi-highlight">Personalized nutrition guidance</span> and healthy meal planning for your lifestyle.
           </p>
         </div>
       </div>
 
       <div className="col-12 col-md-4">
-        <div className="service-box animate-card delay-5">
-          <div className="service-icon">🖌️</div>
-          <h5>Mehandi Arts</h5>
-          <p>
-            Professional mehandi artists creating elegant and intricate designs
-            for weddings, engagements, and special occasions.
-          </p>
-        </div>
-      </div>
+  <div className="service-box animate-card delay-5">
+    <div className="service-icon">🖌️</div>
+    <h5>Mehandi Arts</h5>
+    <p>
+      <span className="mehandi-highlight">Professional mehandi artist</span> creating elegant and intricate designs
+      for weddings, engagements, and special occasions.
+    </p>
+  </div>
+</div>
 
     </div>
 
@@ -156,16 +159,21 @@ export default function Home() {
     <div className="row g-4 mt-3 justify-content-center">
 
       <div className="col-12 col-md-4">
-        <div className="service-box animate-card delay-6">
-          <div className="service-icon">🍱</div>
-          <h5>Premium Food Distribution</h5>
-          <p>
-            Healthy, dietitian-guided meals for busy professionals.
-            Includes personalized diet consultation and regular follow-ups
-            to ensure your health goals are on track.
-          </p>
-        </div>
-      </div>
+  <div className="service-box animate-card delay-6">
+    <div className="service-icon">🍱</div>
+    <h5>Premium Food Distribution</h5>
+    <p>
+      Healthy, dietitian-guided meals for busy professionals.
+      Includes personalized diet consultation and regular follow-ups
+      to ensure your health goals are on track.
+    </p>
+
+    {/* HIGHLIGHT */}
+    <p className="delivery-highlight">
+      🚚 Home Delivery Available
+    </p>
+  </div>
+</div>
 
     </div>
 
